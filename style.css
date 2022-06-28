@@ -1,4 +1,11 @@
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -55,12 +62,13 @@ footer {
     display:flex;
     justify-content: space-around;
     margin-bottom: 40px;
+    gap: 270px;
 }
 
 .bottomheader {
     display:flex;
-    justify-content: center;
-    gap: 700px;
+    justify-content: space-around;
+    gap: 0px;
     
 }
 .awesomebox {
@@ -97,5 +105,60 @@ footer {
 }
 
 .main2 {
-    background-color: grey;
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2938;
+    font-style: italic;
+    width: 750px;
+    margin-bottom: 0;
+    margin-top: 65px;
+}
+
+.quotee {
+    display: flex;
+    font-weight: bold;
+    margin-left: 430px;
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+
+.bluebox {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background-color: #3882f6;
+    width: 900px;
+    height: 100px;
+    margin: 0px auto;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.boxtext {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+}
+
+.calltoaction {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.bluebox button {
+    border: 2px solid white;
+    height: 35px;
+    justify-content: center;
+    align-self: center;
 }
