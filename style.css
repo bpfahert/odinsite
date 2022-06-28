@@ -2,6 +2,9 @@
 ul {
     list-style-type: none;
     display: flex;
+}
+
+.topul {
     gap: 24px;
 }
 
@@ -65,4 +68,34 @@ footer {
     flex-flow: column wrap;
     align-items: center;
     width: 400px;
+}
+
+.main1head {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main1 {
+ display: flex;
+ flex-flow: column wrap;
+ align-items: center;
+ margin-bottom: 90px;
+}
+
+.main1 ul {
+    gap: 65px;
+}
+
+.main1text {
+    width: 150px;
+    flex-wrap: wrap;
+    color: grey;
+    text-align: center;
+}
+
+.main2 {
+    background-color: grey;
 }
